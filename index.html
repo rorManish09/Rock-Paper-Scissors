@@ -3,10 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     
+    <div class="Sections">
+        
+        <div class="Round">
+            <p id="roundCount">Round: <span id="roundNum">1</span>
+            </p>
+        </div>
+        <div class="score">
+            <p>Human Score:<span id="hScore">0</span></p>
+            <p>Computer Score: <span id="cScore">0</span></p>
+        </div>
+        <div class="draw-board">
+            <p id="Draw"></p>
+        </div>
+        <div class="container">
+            <div class="options" >
+                <img src='images/stone.png' alt="">
+                <button id="Rock">Rock</button>
+            </div>
+            <div class="options" >
+                <img src='images/toilet-paper.png' alt="">
+                <button id="Paper">Paper</button>
+            </div>
+            <div class="options" >
+                <img src='images/scissors.png'  alt="">
+                <button id="Scissors">Scissors</button>
+            </div>
+        </div>
+
+        <div class="winner">
+            <p id="winner-display"></p>
+        </div>
+    </div>
+<script src="script.js"></script>
 </body>
 </html>
